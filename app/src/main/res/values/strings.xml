@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">성공하자</string>
+    <string name="meet">대면</string>
+    <string name="meetway">진행 방식</string>
+    <string name="zoom">비대면</string>
+    <string name="scope">선호 지역</string>
+    <string name="ex">ex.경기도 성남, 서울 강남</string>
+    <string name="peoplecount">모집 인원</string>
+    <string name="exnum">0명</string>
+    <string name="wantdep">선호하는 과</string>
+    <string name="contents">경험유무, 원하는 진행 방향 등</string>
+    <string name="delete">삭제하기</string>
+    <string name="check">등록</string>
+    <string name="etc">기타</string>
+    <string name="writedep">학과명을 적으시오</string>
+</resources>

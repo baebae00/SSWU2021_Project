@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="liberalmajor">
+        <item>국어국문학과</item>
+        <item>영어영문학과</item>
+        <item>독일어문·문학학과</item>
+        <item>프랑스어문·문화학과</item>
+        <item>일본어어문·문화학과</item>
+        <item>중국어어문·문화학과</item>
+    </string-array>
+    <string-array name="socialmajor">
+        <item>사학과</item>
+        <item>정치외교학과</item>
+        <item>심리학과</item>
+        <item>지리학과</item>
+        <item>경제학과</item>
+        <item>경영학과</item>
+        <item>미디어커뮤니케이션학과</item>
+        <item>사회복지학과</item>
+    </string-array>
+    <string-array name="engineeringmajor">
+        <item>서비스디자인공학과</item>
+        <item>융합보안공학과</item>
+        <item>컴퓨터공학과</item>
+        <item>정보시스템공학과</item>
+        <item>서비스디자인공학과</item>
+        <item>AI융합학부</item>
+    </string-array>
+    <string-array name="artsmajor">
+        <item>동양학과</item>
+        <item>서양학과</item>
+        <item>조소과</item>
+        <item>공예과</item>
+        <item>산업디자인과</item>
+    </string-array>
+</resources>

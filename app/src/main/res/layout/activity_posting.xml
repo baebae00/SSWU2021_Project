@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ViewPost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="팀원 모집글 작성하기"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:id="@+id/contentsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textTitle"
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center|left"
+                        android:textColor="#000000"
+                        android:text="모집글 제목" />
+
+                    <EditText
+                        android:id="@+id/postTitleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:autofillHints="Region"
+                        android:ems="10"
+                        android:hint="ex.공모전 팀원 모집합니다"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/meetWayText"
+                        android:layout_width="67dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:textColor="#000000"
+                        android:text="@string/meetway" />
+
+                    <CheckBox
+                        android:id="@+id/zoom"
+                        android:layout_width="44dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+
+                        android:text="@string/zoom" />
+
+                    <CheckBox
+                        android:id="@+id/meet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:text="@string/meet" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/regionText"
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center|left"
+                        android:text="@string/scope"
+                        android:textColor="#000000"/>
+
+                    <EditText
+                        android:id="@+id/writeRegionText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:autofillHints="Region"
+                        android:ems="10"
+                        android:hint="@string/ex"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/wantNumText"
+                        android:layout_width="99dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center|left"
+                        android:text="@string/peoplecount"
+                        android:textColor="#000000"/>
+
+                    <EditText
+                        android:id="@+id/writeWantNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:hint="@string/exnum"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/deptText"
+                        android:layout_width="97dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:gravity="center|left"
+                        android:text="@string/wantdep"
+                        android:textColor="#000000"/>
+
+                    <EditText
+                        android:id="@+id/writeDeptText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:hint="@string/writedep"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/etcText"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/etc"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/writeEtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginRight="22dp"
+                    android:background="#f1f1f1"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/contents"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:lines="15"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!--    <include-->
+            <!--        layout="@layout/view_loading"-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="match_parent"-->
+            <!--        android:visibility="gone"/>-->
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/upLoadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="모집글 등록"
+            android:visibility="gone"
+            app:backgroundTint="#6B6FAE" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="모집글 수정"
+            android:visibility="gone"
+            app:backgroundTint="#6B6FAE" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

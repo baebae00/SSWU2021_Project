@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sw_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SWProject">
+        <activity android:name=".Activity.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LogInActivity"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".Activity.SignUpActivity">
+        </activity>
+        <activity android:name=".Activity.MainActivity">
+        </activity>
+        <activity android:name=".Activity.PostingActivity">
+        </activity>
+        <activity android:name=".Activity.RecruitScrapActivity">
+        </activity>
+        <activity android:name=".Activity.ContestDetailActivity">
+        </activity>
+        <activity android:name=".Activity.Setting2Activity">
+        </activity>
+        <activity android:name=".Activity.AlarmSettingActivity">
+        </activity>
+        <activity android:name=".Activity.ViewPostActivity">
+        </activity>
+        <activity android:name=".Activity.MyPostActivity">
+        </activity>
+        <activity android:name=".Activity.FragMainActivity">
+        </activity>
+        <activity android:name=".Activity.WriterPopUpActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Activity.PopUpActivity"
+            android:theme="@android:style/Theme.Dialog" />
+
+    </application>
+
+</manifest>
