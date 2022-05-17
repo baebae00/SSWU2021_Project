@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/77660379/168837607-73a4174d-58d0-4977-b8c6-7c9d014c9acd.png)
 
 #### 통계 데이터 제공
-<img src="https://user-images.githubusercontent.com/77660379/168833273-0611bca5-a598-4688-851e-795b0a032929.gif" width="32%"/>
+![image](https://user-images.githubusercontent.com/77660379/168837795-e959d083-f6a9-4f7e-bffc-3326844ddcf5.png)
 
 
 
