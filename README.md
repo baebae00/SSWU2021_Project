@@ -16,6 +16,7 @@
 ## 주요 기능
 
 #### 교내, 교외 공모전 정보 함께 제공
+![image](https://user-images.githubusercontent.com/77660379/168837418-5886347b-d4bb-4a18-bdf7-6f2b0ee15cf6.png)
 
 #### 팀원 모집 기능 제공
 <img src="https://user-images.githubusercontent.com/77660379/168833273-0611bca5-a598-4688-851e-795b0a032929.gif" width="32%"/>
