@@ -16,25 +16,13 @@
 ## 주요 기능
 
 #### 교내, 교외 공모전 정보 함께 제공
-* `ViewPager2+BottomNavigationView` 활용 -> 영화 순위, 영화 목록 화면 구현
-* `영화 순위 화면`은 `별점(rt_score)`를 기준으로 `내림차순` 정렬
-* `영화 목록 화면`은 `제목(title)`을 알파벳 순(`A~Z`)으로 정렬
-* `즐겨찾기 화면`은 선택과제가 진행되지 않아 MainActivity에서 제거
-* 각 리스트의 아이템은 ‘RecyclerView’ 활용 -> `제목`, `감독`, `설명`, `점수`, `이미지`가 노출되도록 설정
+<img src="https://user-images.githubusercontent.com/77660379/168833273-0611bca5-a598-4688-851e-795b0a032929.gif" width="32%"/>
 
 #### 팀원 모집 기능 제공
-* `ViewPager2+BottomNavigationView` 활용 -> 영화 순위, 영화 목록 화면 구현
-* `영화 순위 화면`은 `별점(rt_score)`를 기준으로 `내림차순` 정렬
-* `영화 목록 화면`은 `제목(title)`을 알파벳 순(`A~Z`)으로 정렬
-* `즐겨찾기 화면`은 선택과제가 진행되지 않아 MainActivity에서 제거
-* 각 리스트의 아이템은 ‘RecyclerView’ 활용 -> `제목`, `감독`, `설명`, `점수`, `이미지`가 노출되도록 설정
+<img src="https://user-images.githubusercontent.com/77660379/168833273-0611bca5-a598-4688-851e-795b0a032929.gif" width="32%"/>
 
 #### 통계 데이터 제공
-* `ViewPager2+BottomNavigationView` 활용 -> 영화 순위, 영화 목록 화면 구현
-* `영화 순위 화면`은 `별점(rt_score)`를 기준으로 `내림차순` 정렬
-* `영화 목록 화면`은 `제목(title)`을 알파벳 순(`A~Z`)으로 정렬
-* `즐겨찾기 화면`은 선택과제가 진행되지 않아 MainActivity에서 제거
-* 각 리스트의 아이템은 ‘RecyclerView’ 활용 -> `제목`, `감독`, `설명`, `점수`, `이미지`가 노출되도록 설정
+<img src="https://user-images.githubusercontent.com/77660379/168833273-0611bca5-a598-4688-851e-795b0a032929.gif" width="32%"/>
 
 
 
