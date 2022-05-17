@@ -7,7 +7,7 @@
 ## 결과
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/77660379/153544949-c06649a9-b4fd-49b8-b1f9-149fd1ea9497.gif" width="32%"/>
+<img src="https://user-images.githubusercontent.com/77660379/168830641-b531a39b-65e7-4366-8e6a-c4f23f1bfc59.png" width="32%"/>
 <img src="https://user-images.githubusercontent.com/77660379/153545656-b7745619-11ed-4268-b889-5efbb1a16cb4.gif" width="32%"/>
 <img src="https://user-images.githubusercontent.com/77660379/153538759-50b20afc-c5c9-400d-96bb-0cf03ce6d26a.gif" width="32%"/>
 </p>
